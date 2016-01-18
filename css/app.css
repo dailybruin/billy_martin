@@ -7,3 +7,19 @@
     min-height: 900px;
     background: transparent;
 }
+
+.pullquote {
+	float: left;
+	width: 250px;
+	background-image: url("img/pullquote.png") top left no-repeat;
+	padding: 13px;
+	margin: 10px 10px 0px -150px;
+}
+
+.pullquote p {
+	color: black;
+	line-height: 90%;
+	font-weight: bold;
+	font-size: 35px;
+	font-style: italic;
+}
