@@ -25,7 +25,7 @@
 .pullquote {
 	float: left;
 	width: 250px;
-	background: url("img/quote.png");
+	background: url("img/pullquote.png");
 	padding: 13px;
 	margin: 10px 15px 0px -150px;
 }
@@ -39,17 +39,7 @@
 	margin-top: 20px;
 }
 
-/*@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* large */
-/*	.pullquote{
-		float: left;
-		width: 250px;
-		background: url("img/quote.png");
-		padding: 13px;
-		margin: 10px 15px 0px -150px;
-	}
-}*/
-
-@media only screen and (max-width: 40em) { /* small */
+@media only screen and (max-width: 40em) {
 	.pullquote {
 		width: 100%;
 		display: block;
@@ -62,7 +52,7 @@
 	}
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em){ /* medium */
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
 	.pullquote {
 		width: 100%;
 		display: block;
