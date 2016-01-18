@@ -8,12 +8,26 @@
     background: transparent;
 }
 
+.headerimg h1 {
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 5.5vmax;
+	padding: 25% 0% 0% 10%;
+	width: 45%;
+	line-height: 90%;
+}
+
+.row {
+	padding: 30px 0px 0px 0px;
+}
+
 .pullquote {
 	float: left;
 	width: 250px;
-	background-image: url("img/pullquote.png") top left no-repeat;
+	background: url("img/pullquote.png");
 	padding: 13px;
-	margin: 10px 10px 0px -150px;
+	margin: 10px 15px 0px -150px;
 }
 
 .pullquote p {
@@ -22,6 +36,37 @@
 	font-weight: bold;
 	font-size: 35px;
 	font-style: italic;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 40em) {
+	.pullquote {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.row {
+		padding: 20px;
+	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+	.pullquote {
+		width: 100%;
+		display: block;
+		margin: 30px 0px 50px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.pullquote p {
+		display: block;
+	}
+
+	.row {
+		padding: 40px;
+	}
 }
 
 #text_near_images {
@@ -45,7 +90,5 @@
 
 #photo_3 {
 	height: 200px;
-	
 	padding-left: 5px;
 }	
-
