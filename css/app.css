@@ -12,9 +12,9 @@
 	color: white;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 55px;
-	padding: 350px 0px 0px 90px;
-	width: 550px;
+	font-size: 5.5vmax;
+	padding: 25% 0% 0% 10%;
+	width: 45%;
 	line-height: 90%;
 }
 
