@@ -8,6 +8,10 @@
     background: transparent;
 }
 
+.row {
+	padding: 30px 0px 0px 0px;
+}
+
 .pullquote {
 	float: left;
 	width: 250px;
@@ -39,9 +43,12 @@
 	.pullquote {
 		width: 100%;
 		display: block;
-		margin: 40px 0px 60px 0px;
+		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+	}
+	.row {
+		padding: 20px;
 	}
 }
 
@@ -49,7 +56,7 @@
 	.pullquote {
 		width: 100%;
 		display: block;
-		margin: 40px 70px 60px 70px;
+		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
