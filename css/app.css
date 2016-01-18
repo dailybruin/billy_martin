@@ -38,11 +38,14 @@
 }
 
 #photo_2 {
+	height: 200px;
 	
-	width: 15%;
+	padding-right: 5px;
 }	
 
 #photo_3 {
+	height: 200px;
 	
-	width: 15%;
+	padding-left: 5px;
 }	
+
