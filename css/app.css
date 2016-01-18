@@ -11,9 +11,9 @@
 .pullquote {
 	float: left;
 	width: 250px;
-	background-image: url("img/pullquote.png") top left no-repeat;
+	background: url("img/quote.png");
 	padding: 13px;
-	margin: 10px 10px 0px -150px;
+	margin: 10px 15px 0px -150px;
 }
 
 .pullquote p {
@@ -22,4 +22,42 @@
 	font-weight: bold;
 	font-size: 35px;
 	font-style: italic;
+	margin-top: 20px;
+}
+
+/*@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* large */
+/*	.pullquote{
+		float: left;
+		width: 250px;
+		background: url("img/quote.png");
+		padding: 13px;
+		margin: 10px 15px 0px -150px;
+	}
+}*/
+
+@media only screen and (max-width: 40em) { /* small */
+	.pullquote {
+		width: 100%;
+		display: block;
+		margin: 40px 0px 60px 0px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){ /* medium */
+	.pullquote {
+		width: 100%;
+		display: block;
+		margin: 40px 70px 60px 70px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.pullquote p {
+		display: block;
+	}
+
+	.row {
+		padding: 40px;
+	}
 }
