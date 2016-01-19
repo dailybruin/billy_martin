@@ -80,15 +80,19 @@
 	margin-right: auto;
 	width: 43%;  
 	padding-bottom: 5px; 
+	padding-top: 5px;
 }
 
 #photo_2 {
-	height: 200px;
-	
+	height: auto;
 	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }	
 
 #photo_3 {
-	height: 200px;
+	height: auto;
 	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }	
