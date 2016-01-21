@@ -52,7 +52,7 @@ p{
 
 .pullquote {
 	float: left;
-	width: 250px;
+	width: 300px;
 	background: url("img/pullquote.png");
 	padding: 13px;
 	margin: 10px 15px 0px -200px;
@@ -104,74 +104,14 @@ p{
 	padding-bottom: 20px; 
 }
 
-#photo_1 {
-	display: block;
+.thumbnail img {
 	margin-left: auto;
 	margin-right: auto;
-	width: 43%;  
+	width: auto;  
 	padding-bottom: 5px; 
 	padding-top: 5px;
 }
 
-#photo_2 {
-	height: auto;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 43%;  
-
-}	
-
-#photo_3 {
-	height: auto;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 43%;  
-}	
-
-#photo_4 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 43%;  
-	padding-bottom: 5px; 
-	padding-top: 5px;
-	width: 43%;  
-}
-
-#photo_5 {
-	height: auto;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 43%;  
-}	
-
-#photo_6 {
-	height: auto;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 43%;  
-}	
-
-#photo_7 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 43%;  
-	padding-bottom: 5px; 
-	padding-top: 5px;
-}
-
-#photo_8 {
-	height: auto;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 43%;  
-}	
 
 .thumbnail.with-caption {
     display: inline-block;
@@ -226,3 +166,18 @@ cite{
 	color: #484848 ;
 }
 
+.block_photo_left{
+    float: right;
+    width: 380px;
+    padding: 13px;
+    margin: 15px -200px 15px 15px;
+}
+.block_photo_right{
+    float: left;
+    width: 380px;
+    padding: 13px;
+    margin: 15px 15px 15px -200px;
+}
+full_photo{
+	width: 100%;
+}
