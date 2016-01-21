@@ -2,6 +2,16 @@
 p{
 	 font-family: 'Georgia W01 Regular', Georgia;
 }
+.first{
+	float: left;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 10px;
+    color: #2199e8;
+}
 .parallax-window {
     min-height: 900px;
     height: auto;
