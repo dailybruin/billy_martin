@@ -59,7 +59,7 @@ p{
 }
 
 .pullquote p {
-	color: #C0C0C0;
+	color: #2199e8;
 	line-height: 100%;
 	font-weight: 600;
 	font-size: 26px;
@@ -138,7 +138,9 @@ p{
 
 .caption_content{
 	font-family:  "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-	color: #A9A9A9;
+	color: #696969;
+	font-size: small;
+	font-weight: 300;
 }
 img {
     border: 1px solid white;
@@ -154,7 +156,7 @@ img {
 
 footer {
     color: rgba(0,0,0, 0.7);
-    padding: 8px 0 8px 0;
+    padding: 8px 0 17px 0;
     font-size: 0.7em;
     clear: both;
     border-top: 1px solid rgba(0,0,0, 0.1);
@@ -169,13 +171,11 @@ cite{
 .block_photo_left{
     float: right;
     width: 380px;
-    padding: 13px;
     margin: 15px -200px 15px 15px;
 }
 .block_photo_right{
     float: left;
     width: 380px;
-    padding: 13px;
     margin: 15px 15px 15px -200px;
 }
 full_photo{
