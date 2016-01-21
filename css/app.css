@@ -5,9 +5,30 @@
     width: 100%;
 }
 
+.top {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding-right: 5px;
+}
+
+.back {
+    float: left;
+    top: 0px;
+    position: absolute;
+   	padding-left: 5px;
+}
+
+.back h5 {
+	font-family: times;
+	font-style: bold;
+	color: white;
+}
+
 .headerimg {
     min-height: 900px;
     background: transparent;
+    width: 100%;
 }
 
 .headerimg h1 {
@@ -146,3 +167,12 @@
 	padding-bottom: 5px;
 	width: 43%;  
 }	
+
+footer {
+    color: rgba(0,0,0, 0.7);
+    padding: 8px 0 8px 0;
+    font-size: 0.7em;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    text-align: center;
+}
